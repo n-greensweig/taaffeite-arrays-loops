@@ -35,3 +35,6 @@ while (start < 10) {
 for (let temp of temps) {
     console.log(temp);
 }
+
+let nums = [2, 4, 5];
+console.log(nums.reduce((a, b) => a + b, 0));
